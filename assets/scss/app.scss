@@ -1,6 +1,35 @@
 body {
-  padding: 32px;
-  margin: 32px;
+  margin: 32px 100px;
   font-family: "Roboto", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+
+.name-section{
+  border: 1px solid #ccc;
+	background-color: #eee;
+  padding: 14px;
+}
+
+.puzzle{
+  padding: 10px 30px;
+  background: #eee;
+  border: 1px solid black;
+  
+  h4{                 /*this means '.puzzle h4' selector in normal css (i.e. h4 inside the element having class puzzle*/
+    margin: 0;
+  }
+}
+
+.puzzle.danger{     /* Class to be applied when puzzle is not solved*/
+  border: 1px solid red;
+  background:#ffdbd6;
+}
+.puzzle.success{    /* Class to be applied when puzzle is solved*/
+  border: 1px solid green;
+  background:#ccffda;
+}
+
+.text-center{
+  text-align: center;
 }
