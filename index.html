@@ -2,7 +2,7 @@
 <html>
 <head>
     <base href="/">
-    <title>Angular 2 Boilerplate</title>
+    <title>NG-2 Puzzle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Load libraries -->
     <!-- IE required polyfills, in this exact order -->
@@ -17,7 +17,7 @@
     <script src="node_modules/angular2/bundles/http.js"></script>
 
 
-    <link rel="stylesheet" href="src/css/app.css">
+    <link rel="stylesheet" href="app/stylesheets/app.css">
 </head>
 <body>
 <app>Loading...</app>
@@ -31,7 +31,7 @@
             }
         }
     });
-    System.import('app/boot')
+    System.import('app/javascripts/boot')
             .then(null, console.error.bind(console));
 </script>
 </body>
