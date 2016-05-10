@@ -3,7 +3,7 @@ import {PuzzleComponent} from './puzzle/puzzle.component';
 @Component({
     selector: 'app',
     template: `
-        <h1 class="text-center">Magic Puzzle</h1>
+        <h1 class="text-center">NG-2 Puzzle</h1>
         <ng2-puzzle></ng2-puzzle>
     `,
     directives: [PuzzleComponent] 
